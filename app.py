@@ -13,7 +13,7 @@ st.set_page_config(page_title="Vajra-Tech | Advanced AI Labs", layout="wide", pa
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash')
 else:
     st.error("⚠️ API Key missing! Please set GEMINI_API_KEY in Render Environment Variables.")
 
