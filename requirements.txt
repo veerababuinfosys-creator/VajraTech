@@ -1,0 +1,15 @@
+# Web Framework & UI Components
+streamlit
+
+# Data Manipulation & Analysis
+pandas
+numpy
+
+# Advanced Interactive Visualizations (Radar, Maps, etc.)
+plotly
+
+# AI Agents & LLM Integration (Gemini Pro)
+google-generativeai
+
+# Utility for Simulation Timings
+datetime
